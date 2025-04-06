@@ -7,7 +7,8 @@ public class movement : MonoBehaviour
     float speedY;
     public float speed;
     Rigidbody2D rb;
-    private bool isFacingRight = true;
+    private bool isFacingRight = false;
+    public Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,7 @@ public class movement : MonoBehaviour
     {
         speedX = Input.GetAxisRaw("Horizontal") * speed;
         speedY = Input.GetAxisRaw("Vertical") * speed;
+        animator.SetFloat("Speed", Mathf.Abs(speedX));
 
         rb.linearVelocity = new Vector2(speedX, speedY);
         Flip();

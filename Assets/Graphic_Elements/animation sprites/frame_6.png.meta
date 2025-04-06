@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 545cc6a3ca06f4d409a993eec7b975fa
+guid: 47e483a82e08aba4ea76ff6956ac6e88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2133475029528092256
-    second: 20 by 20 orthogonal maze_0
+      213: 3081803767075380834
+    second: frame_6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20 by 20 orthogonal maze_0
+      name: frame_6_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 322
-        height: 322
+        x: 111
+        y: 91
+        width: 129
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a1efc7a3cf5462e0800000000000000
-      internalID: -2133475029528092256
+      spriteID: 26e1df3b234c4ca20800000000000000
+      internalID: 3081803767075380834
       vertices: []
       indices: 
       edges: []

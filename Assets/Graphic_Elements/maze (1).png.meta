@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1c91cf3861235434c988143f560911cd
+guid: 3f9b7a35773f5bb4fb0b9d14e23b1152
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2149580073897059337
-    second: small_robot_0
-  - first:
-      213: 7635768712776208023
-    second: small_robot_1
+      213: 7210439212805479388
+    second: maze (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: small_robot_0
+      name: maze (1)_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 77
-        width: 311
-        height: 382
+        x: 0
+        y: 0
+        width: 2000
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fb9b1fcf482b22e0800000000000000
-      internalID: -2149580073897059337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_robot_1
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 21
-        width: 235
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79e41103033b7f960800000000000000
-      internalID: 7635768712776208023
+      spriteID: cdb51d1f240a01460800000000000000
+      internalID: 7210439212805479388
       vertices: []
       indices: 
       edges: []
