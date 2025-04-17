@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class movement : MonoBehaviour
 {
@@ -50,6 +51,10 @@ public class movement : MonoBehaviour
         {
             speed = speed / 2;
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Stairs"))
+        {
+            SceneManager.LoadScene(2);
         }
     }
 }

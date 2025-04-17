@@ -2344,7 +2344,7 @@ GameObject:
   - component: {fileID: 835869394}
   m_Layer: 0
   m_Name: New Piskel-1.png (2)_0
-  m_TagString: Untagged
+  m_TagString: Stairs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 947780940}
   m_Layer: 0
   m_Name: New Piskel-1.png (1)_0 (1)
-  m_TagString: Untagged
+  m_TagString: Stairs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5034,6 +5034,7 @@ GameObject:
   - component: {fileID: 1881008389}
   - component: {fileID: 1881008391}
   - component: {fileID: 1881008390}
+  - component: {fileID: 1881008392}
   m_Layer: 5
   m_Name: Timer Text
   m_TagString: Untagged
@@ -5159,6 +5160,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881008388}
   m_CullTransparentMesh: 1
+--- !u!114 &1881008392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881008388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7d21147089646468a9ff3ee33daea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1881008390}
 --- !u!1001 &2115601836
 PrefabInstance:
   m_ObjectHideFlags: 0
