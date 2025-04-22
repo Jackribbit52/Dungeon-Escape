@@ -3,7 +3,7 @@ using TMPro; // Required for TextMeshPro
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float totalTime = 60f; // Total time in seconds
+    public float totalTime; // Total time in seconds
     public TMP_Text timerText; // Assign this in the Inspector
     private float currentTime;
 
